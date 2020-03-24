@@ -1,0 +1,51 @@
+/*
+ * Copyright 2020 Allanic.me ISC License License
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ * Created by Maxime Allanic <maxime@allanic.me> at 22/03/2020
+ */
+
+body {
+    min-height: 100vh;
+}
+
+table {
+
+}
+
+iframe {
+    border: none;
+}
+
+
+
+@media (min-width: 576px) {
+    .sidebar.collapse:not(.show) {
+        display: block;
+    }
+}
+
+.sidebar {
+    padding: 0;
+}
+
+.nav-link.btn {
+    min-width: 100%;
+    margin: 0;
+}
+
+.nav > *,
+.nav-item > .nav-link {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.sidebar .nav-link > .aside-arrow > i {
+    transition: transform 0.35s;
+}
+
+.sidebar .nav-link:not(.collapsed) > .aside-arrow > i {
+    transform: rotate(90deg);
+}

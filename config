@@ -1,0 +1,12 @@
+functions=bwtheme.pl
+noindex=1
+inframe=1
+framed=1
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:maximeallanic/webmin-bootstrap4.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
